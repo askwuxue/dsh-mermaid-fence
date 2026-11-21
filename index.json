@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "title": { "en": "wuxue's DSH plugins", "zh": "wuxue 的 DSH 插件" },
+  "description": { "en": "Plugin market index for DeepSeek Harness bundles by wuxue.", "zh": "wuxue 发布的 DeepSeek Harness 插件市场索引。" },
+  "metadata": {
+    "categories": {
+      "chat": { "title": { "en": "Chat rendering", "zh": "聊天渲染" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-mermaid-fence",
+      "title": { "en": "Mermaid diagrams", "zh": "Mermaid 流程图" },
+      "description": { "en": "Renders Mermaid code blocks in chat answers as flowcharts, sequence diagrams, and other diagrams.", "zh": "将聊天回答中的 Mermaid 代码块直接渲染为流程图、时序图等图形。" },
+      "icon": "icon.svg",
+      "author": "askwuxue",
+      "homepage": "https://github.com/askwuxue/dsh-mermaid-fence",
+      "repository": { "url": "https://github.com/askwuxue/dsh-mermaid-fence" },
+      "metadata": {
+        "category": "chat",
+        "keywords": ["mermaid", "diagram", "flowchart", "markdown", "chat"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795264908,
+          "source": { "type": "git", "url": "https://github.com/askwuxue/dsh-mermaid-fence", "commit": "b981744c08773b5daa221e7195ff88fdf2ab5331" },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
