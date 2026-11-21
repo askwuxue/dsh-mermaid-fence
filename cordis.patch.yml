@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-mermaid-fence
+      name: 'dsh-mermaid-fence'
+      config: {}

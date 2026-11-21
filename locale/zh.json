@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Mermaid 流程图",
+    "description": "将聊天回答中的 Mermaid 代码块直接渲染为流程图等图形。"
+  }
+}

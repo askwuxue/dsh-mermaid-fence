@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Mermaid diagrams",
+    "description": "Renders Mermaid code blocks in chat answers as flowcharts and other diagrams."
+  }
+}

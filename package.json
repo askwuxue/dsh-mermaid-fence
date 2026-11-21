@@ -1,0 +1,27 @@
+{
+  "name": "dsh-mermaid-fence",
+  "version": "1.0.0",
+  "description": "Renders Mermaid code blocks in DeepSeek Harness chat answers as diagrams.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "scripts": {
+    "build": "bash build/build.sh"
+  },
+  "keywords": ["dsh", "deepseek-harness", "mermaid", "plugin", "diagram"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-chat"]
+    }
+  }
+}
